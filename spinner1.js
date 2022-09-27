@@ -1,7 +1,7 @@
 //Note this trick does not work with your code runner extension.
 //Thiis is only appearing when you run the file in terminal. 
 
-process.stdout.write('hello from spinner1.js... \rheyyy\n');
+//process.stdout.write('hello from spinner1.js... \rheyyy\n');
 
 setTimeout(() => {
   process.stdout.write('\r|   ')
